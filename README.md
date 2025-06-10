@@ -20,7 +20,7 @@ This project was created to demonstrate UI development skills and can serve as a
 
 ## 📸 Preview
 
-
+![Preview image](https://github.com/user-attachments/assets/a6d54515-7597-477a-a31d-9caccad1980e)
 
 ---
 
