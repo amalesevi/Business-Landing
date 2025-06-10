@@ -1,0 +1,25 @@
+footer {
+  background: #1F2937;
+  color: #F9FAFB;
+  text-align: center;
+  padding: 2rem 1rem;
+
+  nav {
+    margin-top: 1rem;
+
+    a {
+      color: #93C5FD;
+      text-decoration: none;
+      margin: 0 0.5rem;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  p {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+  }
+}

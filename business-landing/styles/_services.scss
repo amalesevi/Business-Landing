@@ -1,0 +1,30 @@
+.services {
+  text-align: center;
+
+  h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+  }
+
+  .card {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+
+    h3 {
+      color: #3B82F6;
+      margin-bottom: 0.75rem;
+    }
+
+    p {
+      color: #4B5563;
+    }
+  }
+}

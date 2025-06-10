@@ -1,0 +1,71 @@
+@use "sass:color";
+@use './_contact';
+@use './_footer';
+@use './_hero';
+@use './_pricing';
+@use './_services';
+@use './_testmonials';
+
+$primary: #3B82F6;
+$accent: #10B981;
+$dark: #1F2937;
+$light: #F3F4F6;
+$text: #111827;
+$font-stack: 'Poppins', sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-stack;
+    background-color: #F1F5F9;
+    color: $text;
+    line-height: 1.6;
+}
+
+section {
+    background-color: white; // content sits on white cards
+    margin: 2rem auto;
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+    color: $dark;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 1.4;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+button {
+    background-color: $primary;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+
+    &:hover {
+        background-color: color.adjust($primary, $lightness:  10%);
+    }
+}
